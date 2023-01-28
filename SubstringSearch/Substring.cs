@@ -33,6 +33,9 @@ namespace SubstringSearch
             {
                 for (int s = substring.Length - 1; s >= 0; s--)
                 {
+                    if (shift + s > text.Length - 1)
+                        return -1;
+
                     if (substring[s] != text[shift + s])
                     {
                         if (s == substring.Length - 1)
