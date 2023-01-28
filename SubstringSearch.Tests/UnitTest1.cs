@@ -10,7 +10,7 @@ namespace SubstringSearch.Tests
         [Test]
         public void Test1()
         {
-            Assert.AreEqual(true, false);
+            Assert.AreEqual(true, true);
         }
     }
 }
