@@ -30,7 +30,7 @@ public static class Programm
     }
     static void SearchInText()
     {
-        string substring = "CaCaCCaCaCCaCaCCaCaCCaCa";
+        string substring = "aaBaaaBaBaBaaB";
         string text = GenerateText(substring, "aaBaaaBaBaBaa");
         Substring search = new Substring();
         Console.WriteLine("ПОИСК СТРОКИ, КОТОРАЯ ВСТРЕЧАЕТСЯ В ТЕКСТЕ");
